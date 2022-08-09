@@ -29,7 +29,11 @@ export default {
 <template>
   <h1>{{ eventStore.eventCount }} Events for Good</h1>
   <div class="events">
-    <EventCard v-for="event in eventStore.events" :key="event.id" :event="event" />
+    <EventCard
+      v-for="event in eventStore.events"
+      :key="event.id"
+      :event="event"
+    />
   </div>
 </template>
 

@@ -18,11 +18,7 @@ export default {
       });
     });
   },
-  computed: {
-    events() {
-      return this.$store.state.events;
-    },
-  },
+  computed: {},
 };
 </script>
 
